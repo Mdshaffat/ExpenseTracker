@@ -1,6 +1,6 @@
 # ExpenseTracker
-Clone ExpenseTracker 
-Technology Used:
+
+#Technology Used:
 	ASP.NET Core MVC.
 	ASP.NET Core Framework 6.
 	Entity Framework Core.
@@ -8,7 +8,7 @@ Technology Used:
 	C# Programming Language.
 	Bootstrap 5 CSS Framework.
 
-To run this app : 
+#To run this app : 
 
 	Clone ExpenseTracker Project or Just Download ZIP
 	Open ExpenseTracker.sln File With Visual Studio
@@ -21,7 +21,7 @@ To run this app :
 	Go to Expense By clicking "Expenses" menu From top Left
 	Add Your Expense as much as you want
 
-Features: 
+#Features: 
 	User should be able to create their different expense categories.
 	Prevent user to create a duplicate category.
 	User should be able to see all expense categories and able to edit or delete any specific category.
