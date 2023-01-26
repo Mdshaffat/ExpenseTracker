@@ -5,6 +5,10 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker", "ExpenseTracker\ExpenseTracker.csproj", "{39C2A859-2BD1-4794-A7D3-E8D3DB63B7CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.Core", "ExpenseTracker.Core\ExpenseTracker.Core.csproj", "{9C9C1C58-D87C-4EBE-BBC0-9D943E2B10AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker.DataAccess", "ExpenseTracker.Data\ExpenseTracker.DataAccess.csproj", "{B8F9DA24-2761-45EE-A812-ADBE06D8B334}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{39C2A859-2BD1-4794-A7D3-E8D3DB63B7CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39C2A859-2BD1-4794-A7D3-E8D3DB63B7CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39C2A859-2BD1-4794-A7D3-E8D3DB63B7CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C9C1C58-D87C-4EBE-BBC0-9D943E2B10AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C9C1C58-D87C-4EBE-BBC0-9D943E2B10AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C9C1C58-D87C-4EBE-BBC0-9D943E2B10AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C9C1C58-D87C-4EBE-BBC0-9D943E2B10AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8F9DA24-2761-45EE-A812-ADBE06D8B334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8F9DA24-2761-45EE-A812-ADBE06D8B334}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8F9DA24-2761-45EE-A812-ADBE06D8B334}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8F9DA24-2761-45EE-A812-ADBE06D8B334}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
