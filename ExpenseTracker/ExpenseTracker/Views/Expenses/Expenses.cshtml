@@ -1,0 +1,40 @@
+﻿@model ExpenseTracker.Core.Models.Expenses
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h4>Expenses</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Expenses">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ExpenseCategoryId" class="control-label"> Expense Category</label>
+                <select asp-for="ExpenseCategoryId" class ="form-control" asp-items="ViewBag.ExpenseCategoryId"></select>
+            </div> <br />
+            <div class="form-group">
+                <label asp-for="DateOfTheExpense" class="control-label"></label>
+                <input asp-for="DateOfTheExpense" class="form-control" />
+                <span asp-validation-for="DateOfTheExpense" class="text-danger"></span>
+            </div> <br />
+            <div class="form-group">
+                <label asp-for="ExpenseAmount" class="control-label"></label>
+                <input asp-for="ExpenseAmount" class="form-control" />
+                <span asp-validation-for="ExpenseAmount" class="text-danger"></span>
+            </div> <br />
+            <div class="form-group">
+                <input type="submit" value="Expenses" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
