@@ -5,3 +5,9 @@
 /.vs
 /ExpenseTracker/.vs/ExpenseTracker
 /ExpenseTracker/ExpenseTracker/obj
+/ExpenseTracker/ExpenseTracker/bin/Debug/net6.0
+/ExpenseTracker/ExpenseTracker.Core/bin/Debug/net6.0
+/ExpenseTracker/ExpenseTracker.Core/obj
+/ExpenseTracker/ExpenseTracker.Data/bin/Debug/net6.0
+/ExpenseTracker/ExpenseTracker.Data/obj
+/ExpenseTracker/.vs/ProjectEvaluation
